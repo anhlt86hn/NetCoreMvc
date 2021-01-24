@@ -58,7 +58,7 @@ namespace NetCoreMvc.WebApp
                     FirstName = "Tuan Anh",
                     LastName = "Luong",
                     LockoutEnabled = false
-                }, "Admin@123");
+                }, "HtwlRico86");
                 if (result.Succeeded)
                 {
                     var user = await _userManager.FindByNameAsync("rico");
